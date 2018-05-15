@@ -8,6 +8,7 @@ Version: 1.0
 Author: Max BrownGold
 */
 
+namespace EFSNetworks\OTS3CC;
 
 /*
  * @param array        $attr       Attributes for the image markup.
@@ -53,7 +54,7 @@ function cache_control_thumbnails($attr, $attachment, $size = 'thumbnail')
     return $attr;
 }
 
-add_filter('wp_get_attachment_image_attributes','cache_control_thumbnails', 20, 3);
+add_filter('wp_get_attachment_image_attributes', __NAMESPACE__ . 'cache_control_thumbnails', 20, 3);
 
 /**
  * Accepts an array formatted like the output of parse_url() and rebuilds the url that was used to generate that output
