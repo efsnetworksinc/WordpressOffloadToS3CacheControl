@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Offload To S3 Cache Control
-Plugin URI: https://github.com/efsnetworksinc/WordpressOffloadToS3CacheControl
+Plugin URI: https://github.com/mbrowngold/WordpressOffloadToS3CacheControl
 Description: This plugin is an add-on to the "Offload to S3" wordpress plugin that prevents the site from reloading caching, please see README for installation details.
 Version: 1.0
 Author: Max BrownGold
